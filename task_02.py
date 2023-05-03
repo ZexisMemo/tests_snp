@@ -6,12 +6,5 @@ def coincidence(list=[], range=range(0,1)):
             if list[i] >= min(range) and list[i] <= max(range):
                 arr.append(list[i])
         i = i + 1
-    print(arr)
+    return arr
 
-coincidence([1, 2.5, 3, 4, 12, "adad"], range(0,10))
-coincidence([1, 2, 3, 4, 5])
-coincidence(range(3, 6))
-
-coincidence([1, 2, 3, 4, 5], range(3, 6))
-coincidence()
-coincidence([None, 1, 'foo', 4, 2, 2.5], range(1, 4))
