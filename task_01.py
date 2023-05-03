@@ -13,14 +13,4 @@ def is_palindrome(string):
             break
         i = i + 1
         j = j - 1
-    if flag:
-        print("True")
-    else:
-        print("False")
-
-
-is_palindrome("A man, a plan, a canal -- Panama")
-is_palindrome("Madam, I'm Adam!")
-is_palindrome(333)
-is_palindrome(None)
-is_palindrome("Abracadabra")
+    return flag
