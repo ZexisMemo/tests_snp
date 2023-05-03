@@ -8,14 +8,6 @@ def multiply_numbers(inputs = False):
                 mult = mult * (ord(inputs[i]) - 48)
                 digitflag = True
     if digitflag:
-        print(mult)
+        return mult
     else:
-        print(None)
-
-
-multiply_numbers()
-multiply_numbers('ss')
-multiply_numbers('1234')
-multiply_numbers('sssdd34')
-multiply_numbers(2.3)
-multiply_numbers([5, 6, 4])
+        return None
