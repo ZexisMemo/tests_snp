@@ -13,10 +13,4 @@ def sort_list(list):
             elif list[i] == maxelem:
                 list[i] = minelem
         list.append(minelem)
-    print(list)
-
-
-sort_list([])
-sort_list([2, 4, 6, 8])
-sort_list([1])
-sort_list([1, 2, 1, 3])
+    return list
