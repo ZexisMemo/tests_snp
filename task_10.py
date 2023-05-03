@@ -8,9 +8,4 @@ def count_words(string):
             dictres.update({a[i].lower(): 1})
         else:
             dictres.update({a[i].lower(): dictres.get(a[i].lower()) + 1})
-    print(dictres)
-
-
-
-count_words("A man, a plan, a canal -- Panama")
-count_words("Doo bee doo bee doo")
+    return dictres
